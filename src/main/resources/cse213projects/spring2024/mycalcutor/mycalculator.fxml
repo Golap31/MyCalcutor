@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cse213projects.spring2024.mycalcutor.MycalculatorController">
+   <children>
+      <Label layoutX="217.0" layoutY="47.0" text="MY CALCULATOR">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="resultLabel" layoutX="194.0" layoutY="275.0" prefHeight="90.0" prefWidth="152.0" text="Result " />
+      <TextField fx:id="numberoneTextField" layoutX="79.0" layoutY="103.0" />
+      <TextField fx:id="numbertwoTextField" layoutX="300.0" layoutY="103.0" />
+      <Button layoutX="90.0" layoutY="175.0" mnemonicParsing="false" onAction="#AddOnClick" text="Add" />
+      <Button layoutX="339.0" layoutY="175.0" mnemonicParsing="false" onAction="#SubtractOnClick" text="Subtract" />
+      <Button layoutX="210.0" layoutY="175.0" mnemonicParsing="false" onAction="#MultiplyonClick" text="Multiply" />
+      <Button layoutX="456.0" layoutY="175.0" mnemonicParsing="false" onAction="#DivideOnAction" text="Divide" />
+   </children>
+</AnchorPane>
